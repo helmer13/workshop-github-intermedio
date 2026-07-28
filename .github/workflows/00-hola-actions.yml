@@ -25,7 +25,6 @@ jobs:
 
       - name: Ver el contexto de ejecución
         run: |
-        compile
           echo "Sistema operativo del runner : $RUNNER_OS"
           echo "Repositorio                  : $GITHUB_REPOSITORY"
           echo "Rama o tag                   : $GITHUB_REF_NAME"
